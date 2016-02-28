@@ -1,0 +1,59 @@
+/* CSS Document */
+#body{
+	background:cornflowerblue; font-size:10px;}
+#contenedor{
+	width:960px; height:1000px; outline:1px solid black; background:cornflowerblue;margin:auto;}
+#superior{ 
+	width:960px; height:210px;}	
+#logo{
+	width:150px; height:150px; float:left ;outline:1px solid blue; margin-left:30px; margin-bottom:30px; margin-top:30px; background-image:url(images/logo.jpeg);
+	background-size: 150px 150px;}
+#titulo{
+	width:750px; height:150px; float:right; outline:1px solid green; margin-right:30px; margin-bottom:30px; margin-top:30px;}		
+#menu{
+	width:960px; height:80px;}
+#secciones{
+	width:900px; height:80px; outline: 1px solid violet; margin-left:30px; margin-right:30px;}
+#medio{
+	width:960px; height:530px;}
+#contenido{
+	width:900px; height:530px; margin-left:30px; margin-right:30px;}
+#inferior{
+	width:960px; height:130px;}
+#contacto{
+	width:900px; height:90px; outline:1px solid red; margin:30px; text-align:center;}						
+.mimenu {
+    display: inline; padding: 2px 7px; font-size: 30px; margin:30px;}
+.submenu{
+	display:inline; padding:2px 7px; font-size:15px;}	
+a{
+	color:#005329; }
+h1{
+	font-size:70px; color:#005329; text-align:center; margin-bottom:auto;}	
+  
+h4{
+	color:#005329;}	
+h6{
+	color:#005329;}
+.divs{
+	outline:1px  lightblue;}
+#ferias{
+	width:435px; height:auto; float:left; margin-right:15px; margin-top:10px;}
+#video{
+	width:430px; height:auto; float:right; margin-left:15px; margin-top:10px; }
+#mivideo{
+width:400px; height:230px; margin-left:15px;}		
+.tamaño{width: 300px; height: 150px; margin-left:65px; margin-right:65px;}
+
+.foto{
+	width: 300px; height: 150px; float:right;}
+.basicos{
+	width:300px; height:150px; float:left;}	
+#contenido1{
+	width:435px; height:auto; float:left; margin-right:15px; outline: 1px solid green;}
+#contenido2{
+	width:435px; height:auto; float:right; margin-left:15px; outline:1px solid green;}
+#contenido3{
+	width:435px; height:auto; float:left; margin-right:15px; margin-top:5px; outline: 1px solid green;}
+#contenido4{
+	width:435px; height:auto; float:right; margin-left:15px; margin-top:5px; outline:1px solid green;}				

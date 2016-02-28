@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>HOW DO I LOOK: Formulario de Sugerencias</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="contenedor">
+	<div id="superior">
+		<div id="logo">
+			
+		</div><!---logo-->
+		<div id="titulo">
+			<h1> HOW DO I LOOK </h1>
+		</div><!---titulo-->
+	</div><!---superior-->
+	<div id="menu">
+		<div id="secciones">
+			<ul>
+				<li class="mimenu"> <a href="index.html" tabindex="1" title="pagina de inicio"> Inicio </a> </li>
+				<li class="mimenu"><a href="basicos.html" tabindex="2" title="basicos">BASICOS</a></li>
+				<li class="mimenu"><a href="jeans.html" tabindex="3" title="jeans">JEANS</a></li>
+				<li class="mimenu"><a href="abrigos.html" tabindex="4" title="abrigos">ABRIGOS</a></li>
+				<p>Camino:<a href="index.html" title="Pagina de inicio"> Inicio </a> > <a href="formulario.html" title="formulario">SUGERENCIAS</a></p>
+			</ul>
+		</div><!---secciones-->
+	</div><!---menu-->
+	<div id="medio">
+		<div id="contenido">
+			<form action="">
+				<fieldset>
+					<legend> Datos personales </legend>
+					(Los datos con * son obligatorios)
+					<br>
+					Nombre: <input type="text" name="nombre" > (*)
+					<br>
+					Apellido: <input type="text" name="apellido" > (*)
+					<br>
+					<label for="male"> Hombre </label>
+						<input type="radio" name="sex" id="male" value="male">
+					<label for="female"> Mujer </label>
+						<input type="radio" name="sex" id="female" value="female">
+					<br>	
+					Fecha de nacimiento: <input type="text" name="nacimiento" >
+				</fieldset>
+				<fieldset>
+					<legend> Contacto </legend>
+					Direccion: <input type="text" name="dir" >
+					<br>
+					Departamento: <select>
+									<option value="can"> Canelones </option>
+									<option value="mont"> Montevideo </option>
+									<option value="mal"> Maldonado </option>
+								  </select>	
+					Localidad: <input type="text" name="loc" >
+					<br>
+					Telefono : <input type="text" name="tel" >(*)
+					<br>
+					Correo : <input type="text" name="correo" >
+				</fieldset>
+				<fieldset>
+					<legend> ¿En que debemos mejorar? </legend>
+					Precio<input type="checkbox" name="precio">
+					Calidad<input type="checkbox" name="calidad">
+					Servicio<input type="checkbox" name="servicio" >
+					<br>
+					Dejanos tus comentarios:
+					<br>
+					<textarea rows="8" cols="16">
+				    </textarea>
+				</fieldset>
+				<input type="submit" value="Enviar">
+			</form>
+
+		</div><!---contenido-->
+	</div><!---medio-->
+	<div id="inferior">
+		<div id="contacto">
+			<p> Celular: 094636115 </p> 
+			<p>Facebook: "www.facebook.com/HowDoILook"</p>
+			<p>Correo: howdoilook@gmail.com </p>
+		</div><!---contacto-->
+	</div><!---inferior-->
+</div><!--- contenedor-->
+</body>
+</html>
+ul
